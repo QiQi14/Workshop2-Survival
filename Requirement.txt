@@ -1,0 +1,11 @@
+Thiết kế tựa game survival với yêu cầu sau:
+
++ Enemy spawn ngẫu nhiên trên map, và chạy dần về hướng của player.
+
++ Vật phẩm spawn ngẫu nhiên trên map
+
++ Player khi lụm vật phẩm sẽ có vũ khí quay quanh người, số lượng vũ khí max là 5 cái, đủ 5 thì tăng dần số attack mỗi khi lụm đc 1 vật phẩm kế tiếp
+
++ Đa dạng hóa vũ khí, vũ khí sẽ đc random với các cấp độ khác nhau, khi lụm vũ khí có cấp thấp hơn vũ khí hiện tại thì ko có gì xảy ra, nếu vũ khí có cấp cao hơn thì thay thế vũ khí hiện tại và reset số lượng về 1.
+
++ Có 4 cấp vũ khí với tỉ lệ spawn ra lần lượt là N 50% R 30% SR 10% SSR 1%
