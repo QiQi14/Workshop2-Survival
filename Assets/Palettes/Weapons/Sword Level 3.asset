@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8907aed5d80874cae96e9b1a82844e, type: 3}
+  m_Name: Sword Level 3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2801812277268535363, guid: 2529924e6dd19554d8d08a1ad568b121, type: 3}
+  damage: 20
+  rotationSpeed: 210
+  distanceFromPlayer: 1.3
+  dropChance: 10
+  weaponType: 2
+  rarity: 2
+  count: 1
